@@ -9,4 +9,4 @@ How to reproduce:
 - Click through home and home2 a couple of times, navigate into the same page with both browsers
 - Add some data
 - -> duplicates should appear in the other browser (that was waiting for data).
-- If duplicated don't seem to appear, click to another page (home2 -> home) with both browsers and try again.
+- If duplicates don't seem to appear, click to another page (home2 -> home) with both browsers and try again.
