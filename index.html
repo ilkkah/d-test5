@@ -1,0 +1,26 @@
+<Title:>
+  Todos
+
+<Body:>
+  <view name="d-connection-alert"></view>
+  <view name="d-before-unload"></view>
+  <form id="head" on-submit="add()">
+    <ul>
+      <li><a href="/home">home</a></li>
+      <li><a href="/home2">home2</a></li>
+    </ul>
+    <h1>Todos</h1>
+    <div id="add">
+      <div id="add-input"><input id="new-todo" value="{{_page.newTodo}}"></div>
+      <input id="add-button" type="submit" value="Add">
+    </div>
+  </form>
+  <div id="dragbox"></div>
+  <div id="todos" as="container">
+    <ul>
+    {{each _page.todos as #todo, #index}}
+      <li>{{#todo}}</li>
+    {{/}}
+    </ul>
+  </div>
+
